@@ -1,0 +1,9 @@
+transcrypt
+fastapi
+mypy
+pylint
+uvicorn[standard]
+isort
+black
+jinja2
+watchgod

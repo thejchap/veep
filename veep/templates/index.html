@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{title}}</title>
+  </head>
+
+  <body>
+    <div id="veep"></div>
+  </body>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>
+  <script type="module">
+    import { APP } from "{{ url_for('static', path=spa_path) }}";
+    APP.client.render();
+  </script>
+
+</html>
